@@ -1,0 +1,11 @@
+spring:
+    datasource:
+        url: ${assistConnect_db_url}
+        username: ${assistConnect_db_username}
+        password: ${assistConnect_db_password}
+    jpa:
+        hibernate:
+            ddl-auto: none
+            
+jwt:
+     secret: ${assistConnect_jwt_secret}
